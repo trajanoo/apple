@@ -1,0 +1,112 @@
+@font-face {
+  font-family: "SF";
+  src: url('SFPRODISPLAYREGULAR.OTF');
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #F5F5F7;
+  font-family: 'SF';
+}
+
+ul {
+  display: inline-flex;
+  gap: 30px;
+  list-style-type: none;
+}
+
+img {
+  width: 25px;
+  margin-right: 50px;
+}
+
+header {
+  display: flex;
+  height: 50px;
+  justify-content: center;
+  align-items: center;
+  font-size: 13px;
+}
+
+#title {
+  padding: 90px 10px 10px 120px;
+  color: #1D1D1F;
+}
+
+#titledois {
+  color: #6E6E73;
+}
+ 
+h1 {
+  font-size: 45px;
+}
+
+#box {
+  display: inline-flex;
+  padding: 50px 0px 30px 100px;
+}
+
+.container {
+  margin-left: 20px;
+  border-radius: 10px;
+  height: 100px;
+  width: 100px;
+  background-color: #b9b9b99c;
+}
+
+#novidade {
+  padding: 90px 10px 10px 120px;
+  font-size: 30px;
+}
+
+#titletres {
+  color: #6E6E73;
+}
+
+.containerdois {
+  display: inline-flex;
+  padding: 50px 0px 30px 100px;
+  gap: 20px;
+}
+
+.content {
+  height: 500px;
+  width: 400px;
+  background-color: #ffffff;
+  gap: 20px;
+  border-radius: 15px;
+  box-shadow: 2px 14px 12px #00000014;
+}
+
+#ajuda {
+  padding: 40px 10px 10px 120px;
+  font-size: 30px;
+}
+
+#quando {
+  color: #6E6E73; 
+}
+
+.containertres {
+  display: inline-flex;
+  padding: 50px 0px 30px 100px;
+  gap: 20px;
+}
+
+.contenttres {
+    height: 500px;
+    width: 500px;
+    background-color: #ffffff;
+    gap: 20px;
+    border-radius: 15px;
+    box-shadow: 2px 14px 12px #00000014;
+}
+
+.sectioncontainer {
+  display: flex
+}
