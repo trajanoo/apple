@@ -20,9 +20,14 @@ ul {
   list-style-type: none;
 }
 
-img {
-  width: 25px;
+#logo {
+  width: 20px;
   margin-right: 50px;
+  transition: 0.4s;
+}
+
+#logo:hover {
+  filter: brightness(0);
 }
 
 header {
@@ -31,6 +36,15 @@ header {
   justify-content: center;
   align-items: center;
   font-size: 13px;
+  color: #585858;
+}
+
+li {
+  transition: 0.4s;
+}
+
+li:hover {
+  color: black;
 }
 
 #title {
@@ -42,7 +56,7 @@ header {
   color: #6E6E73;
 }
  
-h1 {
+#title {
   font-size: 45px;
 }
 
@@ -109,4 +123,136 @@ h1 {
 
 .sectioncontainer {
   display: flex
+}
+
+#search {
+  width: 15px;
+  margin-left: 40px;
+}
+
+#um {
+  background-image: url('um.png');
+  background-size: 100px;
+  background-color: #F5F5F7;
+  background-repeat: no-repeat;
+}
+
+#dois {
+  background-image: url('2.png');
+  background-size: 110px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-color: #F5F5F7;
+}
+
+#tres {
+  background-image: url('3.png');
+  background-size: 110px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-color: #F5F5F7;
+}
+
+#quatro {
+  background-image: url('4.png');
+  background-size: 110px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-color: #F5F5F7;
+}
+
+#cinco {
+  background-image: url('5.png');
+  background-size: 110px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-color: #F5F5F7;
+}
+
+#seis {
+  background-image: url('6.png');
+  background-size: 110px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-color: #F5F5F7;
+  background-color: #F5F5F7;
+}
+
+#sete {
+  background-image: url('7.png');
+  background-size: 110px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-color: #F5F5F7;
+}
+
+#oito {
+  background-image: url('8.png');
+  background-size: 110px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-color: #F5F5F7;
+}
+
+.containerdois {
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+#card1 {
+  color: white;
+  padding: 30px;
+  font-size: 13px;
+  background-image: url('store-card-1.jfif');
+  background-size: cover;
+  background-position: center;
+}
+
+#card2 {
+  padding: 30px;
+  font-size: 13px;
+  background-image: url('store-card-2.jfif');
+  background-size: cover;
+  background-position: center;
+}
+
+#card3 {
+  padding: 30px;
+  font-size: 13px;
+  background-image: url('store-card-3.jfif');
+  background-size: cover;
+  background-position: center;
+}
+
+#card4 {
+  color: white;
+  padding: 30px;
+  font-size: 13px;
+  background-image: url('store-card-4.jfif');
+  background-size: cover;
+  background-position: center;
+}
+
+#help1 {
+  background-image: url('help-card-1.jfif');
+  background-size: cover;
+  background-position: center;
+}
+
+#help2 {
+  background-image: url('help-card-2.jfif');
+  background-size: cover;
+  background-position: center;
+}
+
+#help3 {
+  background-image: url('help-card-3.jfif');
+  background-size: cover;
+  background-position: center;
+}
+
+#help4 {
+  background-image: url('help-card-4.jfif');
+  background-size: cover;
+  background-position: center;
 }
