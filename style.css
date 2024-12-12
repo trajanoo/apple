@@ -73,6 +73,17 @@ li:hover {
   background-color: #b9b9b99c;
 }
 
+.container > p {
+  height: 115px;
+  display: flex;
+  justify-content: center;
+  align-items: end;
+}
+
+.container > p:hover {
+  text-decoration: underline;
+}
+
 #novidade {
   padding: 90px 10px 10px 120px;
   font-size: 30px;
@@ -86,6 +97,16 @@ li:hover {
   display: inline-flex;
   padding: 50px 0px 30px 100px;
   gap: 20px;
+
+}
+
+.containerdois div {
+    transition: 0.25s;
+}
+
+.containerdois div:hover {
+  box-shadow: 2px 4px 12px #00000014;
+  transform: scale(1.015);
 }
 
 .content {
@@ -111,6 +132,16 @@ li:hover {
   padding: 50px 0px 30px 100px;
   gap: 20px;
 }
+
+.containertres div {
+  transition: 0.4s;
+}
+
+.containertres div:hover {
+box-shadow: 2px 4px 12px #00000014;
+transform: scale(1.01);
+}
+
 
 .contenttres {
     height: 500px;
@@ -255,4 +286,15 @@ li:hover {
   background-image: url('help-card-4.jfif');
   background-size: cover;
   background-position: center;
+}
+
+@media (max-width: 830px) {
+  ul {
+    display: none;
+  }
+
+  header {
+    justify-content: space-between;
+    margin: 0px 15px;
+  }
 }
