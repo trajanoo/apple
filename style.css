@@ -44,6 +44,7 @@ li {
 }
 
 li:hover {
+  cursor: pointer;
   color: black;
 }
 
@@ -156,9 +157,14 @@ transform: scale(1.01);
   display: flex
 }
 
-#search {
+.icons {
   width: 15px;
   margin-left: 40px;
+}
+
+.icons:hover {
+  filter: brightness(0);
+  cursor: pointer;
 }
 
 #um {
